@@ -7,7 +7,7 @@ use App\Http\Controllers\Admin\PeminjamanController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return redirect()->route('login');
+    return view('welcome');
 });
 
 // Dashboard User (Siswa)
